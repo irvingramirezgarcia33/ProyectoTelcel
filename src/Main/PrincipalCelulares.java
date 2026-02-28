@@ -40,7 +40,7 @@ public class PrincipalCelulares {
 			System.out.println("9---Editar buscando por marca");// Editar el precio
 			System.out.println("10---Eliminar buscando por marca");
 			System.out.println("11---Salir");
-
+            System.out.println("saliendoooooo........ un momentico");
 			lectura = new Scanner(System.in);
 			menuPrinci = lectura.nextInt();
 
