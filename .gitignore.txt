@@ -1,0 +1,19 @@
+# Archivos compilados
+*.class
+
+# Carpeta de compilación
+bin/
+
+# Archivos de IDE
+*.log
+*.ctxt
+.settings/
+.project
+.classpath
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
