@@ -5,6 +5,7 @@ import java.util.Scanner;
 import Dominio.Celulares;
 import logicaMetodo.Implementacion;
 
+
 public class PrincipalCelulares {
 
 	public static void main(String[] args) {
@@ -28,17 +29,17 @@ public class PrincipalCelulares {
 		
 		do {
 			System.out.println("MENU PRINCIPAL");
-			System.out.println("1--ALTA");
-			System.out.println("2--Mostrar");
-			System.out.println("3--Buscar");
-			System.out.println("4--Editar");
-			System.out.println("5--Eliminar");
-			System.out.println("6--Buscar por marca");
-			System.out.println("7--Buscar por compañia");
-			System.out.println("8--Calcular el dinero invertido");
-			System.out.println("9--Editar buscando por marca");// Editar el precio
-			System.out.println("10--Eliminar buscando por marca");
-			System.out.println("11--Salir");
+			System.out.println("1---ALTA");
+			System.out.println("2---Mostrar");
+			System.out.println("3---Buscar");
+			System.out.println("4---Editar");
+			System.out.println("5---Eliminar");
+			System.out.println("6---Buscar por marca");
+			System.out.println("7---Buscar por compañia");
+			System.out.println("8---Calcular el dinero invertido");
+			System.out.println("9---Editar buscando por marca");// Editar el precio
+			System.out.println("10---Eliminar buscando por marca");
+			System.out.println("11---Salir");
 
 			lectura = new Scanner(System.in);
 			menuPrinci = lectura.nextInt();
